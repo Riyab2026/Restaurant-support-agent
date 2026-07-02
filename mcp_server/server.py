@@ -10,6 +10,13 @@ DOCS_PATH = Path(__file__).resolve().parent.parent / "docs" / "docs.md"
 _issues: list[dict] = []
 _feedback: list[dict] = []
 
+_STORE_HOURS = {
+    "new york": "6:00 AM - 11:00 PM daily, with select drive-thru locations open 24 hours.",
+    "chicago": "6:00 AM - 12:00 AM daily, with select drive-thru locations open 24 hours.",
+    "london": "7:00 AM - 11:00 PM daily, with select drive-thru locations open 24 hours.",
+    "los angeles": "5:30 AM - 1:00 AM daily, with select drive-thru locations open 24 hours.",
+}
+
 
 @mcp.tool()
 def log_issue(description: str, order_reference: str = "") -> dict:
@@ -30,6 +37,20 @@ def submit_feedback(sentiment: str, comment: str = "") -> dict:
     """Record customer feedback about their order or restaurant visit."""
     _feedback.append({"sentiment": sentiment, "comment": comment})
     return {"status": "recorded"}
+
+
+@mcp.tool()
+def get_store_hours(location: str) -> str:
+    """Look up restaurant opening hours for a specific city or location."""
+    hours = _STORE_HOURS.get(location.strip().lower())
+    if hours:
+        return f"Hours for {location}: {hours}"
+    return (
+        f"We don't have specific hours on file for {location}. Most restaurants are "
+        "open 6:00 AM - 11:00 PM, though this varies by location. Check the McDonald's "
+        "app or the restaurant locator on our website for the exact hours of your "
+        "nearest restaurant."
+    )
 
 
 @mcp.tool()

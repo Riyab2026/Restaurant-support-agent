@@ -10,7 +10,7 @@ Q: How do I check my vouchers, points, or manage my account centre?
 A: All of that is managed through the McDonald's app — vouchers, your points balance, and your account settings all live there. If you haven't already, download the app and sign in to see them.
 
 Q: Do you provide allergen and nutrition information?
-A: Yes. Full nutrition and allergen information for every menu item is available in the app and on our website: https://www.mcdonalds.com. If you have a specific allergy concern, restaurant staff can also provide ingredient information on request.
+A: Yes. The full list of possible allergens and nutrition information for every menu item is available at https://www.mcdonalds.com. If you have a specific allergy concern, restaurant staff can also provide ingredient information on request.
 
 Q: What can I order / what's on the menu?
 A: We offer burgers, chicken sandwiches, breakfast items, fries, salads, desserts, and drinks, with options that vary by location and time of day. See the full menu at https://www.mcdonalds.com.
@@ -32,3 +32,6 @@ A: You can browse open crew and management positions and apply online at https:/
 
 Q: Do you offer work experience placements?
 A: Many restaurants offer work experience placements, particularly for students. Opportunities and how to apply vary by location, so the best starting point is https://careers.mcdonalds.com — you can also ask to be connected with a team member for more specific guidance.
+
+Q: How do I franchise a McDonald's restaurant?
+A: McDonald's offers franchise opportunities for qualified individuals. You can find eligibility requirements, costs, and the application process at https://www.mcdonalds.com/us/en-us/about-us/franchising.html. For detailed guidance on your specific situation, a team member can also be connected to help.
