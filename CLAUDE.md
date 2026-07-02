@@ -6,5 +6,6 @@ Whenever you implement a new feature or make changes, always:
 
 1. train the model
 2. have a few conversations with the trained agent to confirm the changes behave as intended.
-3. report back the transcripts to stdout as simple markdown. 
+3. report back the transcripts to stdout as simple markdown.
+4. commit and push the change to GitHub.
 
