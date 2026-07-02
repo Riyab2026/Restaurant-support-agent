@@ -1,0 +1,9 @@
+version: "3.1"
+flows:
+  acknowledge_and_close:
+    description: The customer's message is just a brief acknowledgment ("okay", "thanks", "got it", "sounds good", or similar) with no new question or information, sent right after Maxine already gave them an answer or resolution
+    if: slots.session_has_resolution is True
+    steps:
+      - action: utter_ack_close
+      - set_slots:
+          - session_has_resolution: false

@@ -4,3 +4,5 @@ flows:
     description: Dynamically handles a customer's order or visit issue, feedback, or restaurant FAQ question (hours, rewards/vouchers/points/account centre, allergens/nutrition, menu items, delivery, refunds, careers/job applications/work experience) by calling backend tools as needed
     steps:
       - call: support_agent
+      - set_slots:
+          - session_has_resolution: true

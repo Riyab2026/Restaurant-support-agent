@@ -1,0 +1,7 @@
+version: "3.1"
+responses:
+  utter_ack_close:
+    - text: "You're welcome — take care!"
+    - text: "Glad I could help. Have a great day!"
+    - text: "No problem at all — take care!"
+    - text: "Anytime! Have a good one."
