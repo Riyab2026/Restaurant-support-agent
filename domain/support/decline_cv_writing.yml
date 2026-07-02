@@ -1,0 +1,6 @@
+version: "3.1"
+responses:
+  utter_decline_cv_writing:
+    - text: "I'm not able to write or help write CVs, resumes, cover letters, or job applications, but you can browse open roles and apply directly at https://careers.mcdonalds.com."
+      metadata:
+        rephrase: True

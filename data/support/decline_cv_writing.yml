@@ -1,0 +1,6 @@
+version: "3.1"
+flows:
+  decline_cv_writing:
+    description: A customer is asking the assistant to write, draft, edit, or help write their CV, resume, cover letter, or any other job application material
+    steps:
+      - action: utter_decline_cv_writing
