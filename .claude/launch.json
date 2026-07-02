@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "rasa-server",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "rasa", "run", "--enable-api", "--port", "5005"],
+      "port": 5005
+    },
+    {
+      "name": "rasa-inspect",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "rasa", "inspect", "--port", "5005"],
+      "port": 5005
+    },
+    {
+      "name": "mock-api-mcp",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "python", "mcp_server/server.py"],
+      "port": 8001
+    }
+  ]
+}

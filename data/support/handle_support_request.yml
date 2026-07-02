@@ -1,0 +1,6 @@
+version: "3.1"
+flows:
+  handle_support_request:
+    description: Dynamically handles a customer's order or visit issue, feedback, or restaurant FAQ question (hours, rewards, allergens/nutrition, menu items, delivery, refunds, careers/job applications) by calling backend tools as needed
+    steps:
+      - call: support_agent

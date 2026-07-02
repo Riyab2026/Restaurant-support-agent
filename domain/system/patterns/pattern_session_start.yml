@@ -1,0 +1,21 @@
+version: "3.1"
+responses:
+  utter_welcome:
+    - text: |
+        Hi there! I'm {agent_name} 👋, your McDonald's virtual assistant.
+
+        Try a few examples:
+        {example_questions}
+    - text: "Hi there! I'm {agent_name}. I'm here to help. How can I assist you today?"
+      channel: "browser_audio"
+  utter_help:
+    - text: "What can I help you with?"
+      metadata:
+        rephrase: True
+
+slots:
+  agent_name:
+    type: text
+    initial_value: "Maxine"
+    mappings:
+      - type: controlled

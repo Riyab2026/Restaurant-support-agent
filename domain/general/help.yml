@@ -1,0 +1,27 @@
+version: "3.1"
+
+slots:
+  example_questions:
+    type: text
+    initial_value: |
+      - Report an issue with my order
+      - Tell you about a great visit
+      - Browse FAQs
+      - Connect me to a human
+    mappings:
+      - type: controlled
+
+responses:
+  utter_what_can_you_do:
+    - text: |
+        I can help you with a few things like:
+        - Reporting an issue with an order or restaurant visit
+        - Sharing feedback about your visit
+        - Answering common questions (FAQs)
+        - Connecting you to a human agent
+      metadata:
+        rephrase: True
+    - text: "I can help you report an issue with an order or visit, share feedback, answer common questions, or connect you to a human agent."
+      channel: "browser_audio"
+      metadata:
+        rephrase: True

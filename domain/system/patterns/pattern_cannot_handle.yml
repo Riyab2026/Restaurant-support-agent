@@ -1,0 +1,5 @@
+responses:
+  utter_no_relevant_answer_found:
+    - text: I'm not able to help with that, but I'm happy to help with an order or visit issue, feedback, or questions about McDonald's — is there something like that I can help with?
+      metadata:
+        rephrase: True

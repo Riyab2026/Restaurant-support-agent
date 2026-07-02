@@ -1,0 +1,7 @@
+version: "3.1"
+
+responses:
+  utter_hello:
+    - text: "Hello! I'm {agent_name}, your McDonald's virtual assistant. Tell me about something we did great, or let me know if something went wrong with your order or visit!"
+      metadata:
+        rephrase: True
