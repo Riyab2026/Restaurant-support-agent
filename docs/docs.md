@@ -6,6 +6,9 @@ A: Most restaurants open at 6am and close at 11pm, though hours vary by location
 Q: How does the McDonald's rewards program work?
 A: Download the app and create an account to start earning points on every order. Points can be redeemed for free menu items. You also get access to app-exclusive deals and a free item just for signing up.
 
+Q: How do I check my vouchers, points, or manage my account centre?
+A: All of that is managed through the McDonald's app — vouchers, your points balance, and your account settings all live there. If you haven't already, download the app and sign in to see them.
+
 Q: Do you provide allergen and nutrition information?
 A: Yes. Full nutrition and allergen information for every menu item is available in the app and on our website: https://www.mcdonalds.com. If you have a specific allergy concern, restaurant staff can also provide ingredient information on request.
 
@@ -26,3 +29,6 @@ A: You can tell me directly in this chat — whether something went great or did
 
 Q: How do I apply for a job / get hired at McDonald's?
 A: You can browse open crew and management positions and apply online at https://careers.mcdonalds.com. Openings and requirements vary by restaurant location.
+
+Q: Do you offer work experience placements?
+A: Many restaurants offer work experience placements, particularly for students. Opportunities and how to apply vary by location, so the best starting point is https://careers.mcdonalds.com — you can also ask to be connected with a team member for more specific guidance.
