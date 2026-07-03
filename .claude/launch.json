@@ -10,7 +10,7 @@
     {
       "name": "rasa-inspect",
       "runtimeExecutable": "uv",
-      "runtimeArgs": ["run", "rasa", "inspect", "--port", "5005"],
+      "runtimeArgs": ["run", "rasa", "inspect", "--port", "5005", "--legacy"],
       "port": 5005
     },
     {
